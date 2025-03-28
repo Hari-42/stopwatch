@@ -18,27 +18,22 @@ fun main() {
 
     frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
 
-
+    val panel = JPanel()
+    panel.background = Color.BLACK
+    panel.preferredSize = Dimension(800, 600)
+    panel.layout = null
 
     val label = JLabel("Stopwatch")
     label.foreground = Color.WHITE
     label.font = Font("Roboto", Font.BOLD, 48)
-
+    label.setBounds(300, 50, 300, 50)
 
 
 
     val timeLabel = JLabel("00:00.00")
     timeLabel.foreground = Color.WHITE
     timeLabel.font = Font("Roboto", Font.BOLD, 48)
-
-
-
-
-
-
-    val panel = JPanel()
-    panel.background = Color.BLACK
-    panel.preferredSize = Dimension(800, 600)
+    timeLabel.setBounds(300, 250, 300, 50)
 
 
     panel.add(label)
@@ -62,8 +57,8 @@ fun main() {
 
     timer.start()
 
-    val button = JButton("Click Me")
-    button.setBounds(100, 80, 100, 30) // x, y, width, height
+    val button = JButton("stop")
+    button.setBounds(400, 500, 100, 30)
 
     button.addActionListener {
         timer.stop()

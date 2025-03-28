@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d3c0eed-85b0-45ba-a59d-3a4a9b6b289c" name="Changes" comment="initial commit">
+    <list default="true" id="1d3c0eed-85b0-45ba-a59d-3a4a9b6b289c" name="Changes" comment="adjusted positions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stopwatch/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stopwatch/MainKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <workItem from="1742725122498" duration="7688000" />
       <workItem from="1742814366019" duration="2895000" />
       <workItem from="1742988988782" duration="608000" />
-      <workItem from="1743194237965" duration="952000" />
+      <workItem from="1743194237965" duration="3336000" />
     </task>
     <task id="LOCAL-00001" summary="created black window">
       <option name="closed" value="true" />
@@ -134,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742751065783</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added a stop button">
+      <option name="closed" value="true" />
+      <created>1743195241154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743195241154</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +154,8 @@
     <MESSAGE value="added text" />
     <MESSAGE value="added stopwatch function" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added a stop button" />
+    <MESSAGE value="adjusted positions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted positions" />
   </component>
 </project>
