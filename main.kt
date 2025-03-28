@@ -1,4 +1,6 @@
 import javax.swing.JFrame
+import javax.swing.JButton
+import javax.swing.JOptionPane
 import javax.swing.JPanel
 import javax.swing.JLabel
 import java.awt.Color
@@ -30,6 +32,10 @@ fun main() {
     timeLabel.font = Font("Roboto", Font.BOLD, 48)
 
 
+
+
+
+
     val panel = JPanel()
     panel.background = Color.BLACK
     panel.preferredSize = Dimension(800, 600)
@@ -55,6 +61,17 @@ fun main() {
     })
 
     timer.start()
+
+    val button = JButton("Click Me")
+    button.setBounds(100, 80, 100, 30) // x, y, width, height
+
+    button.addActionListener {
+        timer.stop()
+    }
+
+
+    panel.add(button)
+    panel.isVisible = true
 
 
     frame.contentPane.add(panel)
