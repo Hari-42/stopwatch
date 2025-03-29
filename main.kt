@@ -55,17 +55,24 @@ fun main() {
         }
     })
 
-    timer.start()
+    val buttonstart = JButton("start")
+    buttonstart.setBounds(300, 500, 100, 30)
 
-    val button = JButton("stop")
-    button.setBounds(400, 500, 100, 30)
+    buttonstart.addActionListener {
+        timer.start()
+    }
 
-    button.addActionListener {
+
+    val buttonstop = JButton("stop")
+    buttonstop.setBounds(400, 500, 100, 30)
+
+    buttonstop.addActionListener {
         timer.stop()
     }
 
 
-    panel.add(button)
+    panel.add(buttonstop)
+    panel.add(buttonstart)
     panel.isVisible = true
 
 
