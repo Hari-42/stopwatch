@@ -1,6 +1,5 @@
 import javax.swing.JFrame
 import javax.swing.JButton
-import javax.swing.JOptionPane
 import javax.swing.JPanel
 import javax.swing.JLabel
 import java.awt.Color
@@ -71,8 +70,18 @@ fun main() {
     }
 
 
+    val buttonreset = JButton("Reset")
+    buttonreset.setBounds(350, 550, 100, 30)
+    buttonreset.addActionListener {
+        timer.stop()
+        elapsed = 0
+        timeLabel.text = "00:00.00"
+    }
+
+
     panel.add(buttonstop)
     panel.add(buttonstart)
+    panel.add(buttonreset)
     panel.isVisible = true
 
 
