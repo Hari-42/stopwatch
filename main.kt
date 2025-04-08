@@ -56,7 +56,7 @@ fun main() {
 
     val buttonstart = JButton("start")
     buttonstart.setBounds(300, 500, 100, 30)
-
+    buttonstart.setBackground(Color.GREEN)
     buttonstart.addActionListener {
         timer.start()
     }
@@ -64,7 +64,7 @@ fun main() {
 
     val buttonstop = JButton("stop")
     buttonstop.setBounds(400, 500, 100, 30)
-
+    buttonstop.setBackground(Color.RED)
     buttonstop.addActionListener {
         timer.stop()
     }
@@ -77,6 +77,7 @@ fun main() {
         elapsed = 0
         timeLabel.text = "00:00.00"
     }
+    buttonreset.setBackground(Color.YELLOW)
 
 
     panel.add(buttonstop)
