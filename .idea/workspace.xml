@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d3c0eed-85b0-45ba-a59d-3a4a9b6b289c" name="Changes" comment="added Buttons, especially the reset button">
+    <list default="true" id="1d3c0eed-85b0-45ba-a59d-3a4a9b6b289c" name="Changes" comment="second tab added and created">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stopwatch/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stopwatch/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/stopwatch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stopwatch/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stopwatch/META-INF/stopwatch.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stopwatch/META-INF/stopwatch.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stopwatch/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stopwatch/MainKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Hari-42/stopwatch.git&quot;,
-    &quot;accountId&quot;: &quot;d6596b5f-5923-4582-bdec-59cba4dccc71&quot;
+    &quot;accountId&quot;: &quot;67b0fe73-63e3-42ca-a588-25f309fa8a43&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743544749080</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="second tab added and created">
+      <option name="closed" value="true" />
+      <created>1747810544413</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747810544415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +187,7 @@
     <MESSAGE value="added a stop button" />
     <MESSAGE value="adjusted positions" />
     <MESSAGE value="added Buttons, especially the reset button" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Buttons, especially the reset button" />
+    <MESSAGE value="second tab added and created" />
+    <option name="LAST_COMMIT_MESSAGE" value="second tab added and created" />
   </component>
 </project>
